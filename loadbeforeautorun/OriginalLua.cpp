@@ -1,0 +1,21 @@
+#include "OriginalLua.h"
+ lua_typeFn lua_type;
+ lua_settopFn lua_settop;
+ lua_isnumberFn lua_isnumber;
+ lua_pushbooleanFn lua_pushboolean;
+ lua_tolstringFn lua_tolstring;
+ lua_getfieldFn lua_getfield;
+ lua_setfieldFn lua_setfield;
+ luaL_loadfileFn luaL_loadfile;
+ luaL_loadbufferFn luaL_loadbuffer;
+ luaL_loadstringFn luaL_loadstring;
+ luaL_newstateFn luaL_newstate;
+ lua_pcallFn lua_pcall;
+ lua_closeFn lua_close;
+ luaL_openlibsFn luaL_openlibs;
+ lua_atpanicFn lua_atpanic;
+ luaL_checkudataFn luaL_checkudata;
+ lua_pushcclosureFn lua_pushcclosure;
+ lua_newthreadFn lua_newthread;
+ luaL_refFn luaL_ref;
+ lua_rawgetiFn lua_rawgeti;
